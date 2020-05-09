@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>online</title>
+    <script src="jquery.min.js"></script>
+    <script src="site.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="site.css"/>
+</head>
+<body>
+<main role="main">
+    <div class="embed-responsive-item" id="video" controls height="auto" width="auto" allow="fullscreen"></div>
+    <script>
+        var player = new Playerjs({id:'video', file:"https://or-be-01.mycdn.video/ufctv/tracks-v1a1/mono.m3u8"}); 
+        </script>
+</main>
+</body>
+</html>
